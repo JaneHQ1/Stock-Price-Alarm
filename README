@@ -7,3 +7,4 @@ I am using the app IFTTT to send notification to my phone, the setting procesure
 4. Give it a title, like “Stock price emergency!”
 5. Set the message: The bid price is at ${{Value1}}. The ask price is at ${{Value1}}. You can take action now.
 6. Create the action and finish setting up the applet
+
