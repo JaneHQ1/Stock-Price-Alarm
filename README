@@ -8,3 +8,7 @@ I am using the app IFTTT to send notification to my phone, the setting procesure
 5. Set the message: The bid price is at ${{Value1}}. The ask price is at ${{Value1}}. You can take action now.
 6. Create the action and finish setting up the applet
 
+Three packages are required in your environment:
+1. yfinance
+2. requests
+3. sys
