@@ -1,0 +1,9 @@
+It is a very simple code to set alarm when the stock price exceeds to the threshold to sell or drops beneath threshold to buy.
+
+I am using the app IFTTT to send notification to my phone, the setting procesure as follows:
+1. Choose the “webhooks” service and select the “Receive a web request” trigger
+2. Name the event stock_price_emergency
+3. For the action select the “Notifications” service and select the “Send a rich notification from the IFTTT app” action
+4. Give it a title, like “Stock price emergency!”
+5. Set the message: The bid price is at ${{Value1}}. The ask price is at ${{Value1}}. You can take action now.
+6. Create the action and finish setting up the applet
